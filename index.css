@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color:rgb(0, 57, 0); 
+}
+body{
+    display: flex;
+    flex-direction: column;
+   height: 100vh;;
+}
+
+.main{
+    background-image:url("/images/photo-1465146344425-f00d5f5c8f07.avif");
+    background-size:contain;
+    padding:20px 20px 80px 20px;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+   padding:20px 20px 80px 20px;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+
+}
+.logo{
+    width: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hero{
+   text-align: center;
+   color:rgb(0, 57, 0);
+   font-family: "DM Sans", sans-serif;
+   
+}
+.love{
+    font-size: 50px;
+}
+.nature{
+    font-size: 98px;
+    letter-spacing: -2px;
+    font-weight: 400;
+}
+last-line{
+    font-size: 18px;
+    line-height: 24px;
+
+}
+.start-button{
+    background-color: rgb(255, 217, 54);
+    padding: 16px 32px 16px 32px;
+    border-color: rgb(255, 217, 54);
+    border-style: solid;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    text-decoration-color: rgb(83, 105, 66);
+    text-decoration-style: solid;
+    border-radius: 4px;
+    color: rgb(83, 105, 66);
+    font-size: 16px;
+    font-weight: 400;
+    border: 0px;
+    margin: 40px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+.start-button:hover{
+    background-color:rgb(185, 157, 33) ;
+    transition: 1s;
+}
+.main-heading{
+    font-family: "DM Sans", sans-serif;
+    font-size: 34px;
+    letter-spacing: -2px;
+    padding: 50px;
+    text-align: center;
+}
+   
+.card-section{
+    display: flex;
+    justify-content: center;
+    flex:1;
+    padding:10px 40px 10px 40px;
+    gap:10px;
+    flex-wrap: wrap;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.testimonial{
+    background-color:rgb(246, 248, 245);
+    text-align: center;
+    padding: 10px 300px 10px 300px;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    align-self: auto;
+    
+}
+.call-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: seagreen;
+    padding: 40px;
+    margin: 30px 250px 30px 250px;
+}
+.action-text{
+   
+}
+.action-button{
+    flex-shrink: 0;
+    
+}
+.signup-button{
+    background-color: rgb(255, 217, 54);
+    padding: 16px 32px 16px 32px;
+    border-color: rgb(255, 217, 54);
+    border-style: solid;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    text-decoration-color: rgb(83, 105, 66);
+    text-decoration-style: solid;
+    border-radius: 4px;
+    color: rgb(83, 105, 66);
+    font-size: 16px;
+    font-weight: 400;
+    border: 0px;
+    margin: 40px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+footer{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+
+}
